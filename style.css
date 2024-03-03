@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Inter", sans-serif;
+}
+body{
+    width: 100vw;
+    height: 120vh;
+    overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+    width: 10px;               /* Define a largura da barra de rolagem do scroll */
+  }
+  body::-webkit-scrollbar-track {
+    background: #fff;        /* Define A cor de fundo da barra de rolagem  */
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #101828;    /* Cor Do pad  */
+    border-radius: 20px;       /* Quanto a borda do pad fica arredondada */
+    border: 3px solid #fff;  /* cria uma borda do pad */
+  }
+.NavBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: 18px 0;
+}
+.container-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 96px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: relative;
+    right: 119px;
+}
+.SignIn{
+    background: #fff;
+    color: #667085;
+    cursor: pointer;
+}
+.SignUp{
+    background:#8E2424;
+    border:1px solid #8E2424;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Sobre{
+
+    position: relative;
+    bottom: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #8E2424;
+}
+.P-bottom{
+    margin: 36px 0 ;
+    width: 800px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#667085;
+}
+.container-numbers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    top: 100px;
+    margin: 0 80px 200px 80px;
+    color:#8E2424 ;
+}
+.container-Vagas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Title{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+.S-Title{
+   color: #101828; 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 12px 0 3px 0;
+
+}
+.SubTitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085;
+    margin: 0 30px 0 0;
+}
+.paragrafo-3{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #8E2424;
+    border: 1px solid #9421210d;
+    background-color: #9c23230d;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+}
+.paragrafo-4{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #667085;
+    margin: 0 0 54px 0;
+}
+.Title-2{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #101828;
+    margin: 0 0 20px 0;
+
+}
+.vaga{
+    display: flex;
+    flex-direction: column;  
+    margin: 64px 250px;
+}
+.Design{
+    margin: 0 0 55px 0;
+    color: #101828;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.titulo-vaga{
+    margin: 0 24px 32px 24px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+
+}
+.informacoes{
+    display: flex;
+    margin: 0 0 70px 24px ;
+    justify-content: space-between;
+    width:35%;
+    color: #667085;
+}
+.Colaboradores{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-Colab{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    margin: 0 0 16px 0;
+}
+.Titulo-Primario{
+    color: #8E2424;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 0 20px 0;
+
+
+}
+.informacoes-colab{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: center;
+    color: #101828;
+}
+.Avatar-Informa-colab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:32px ;
+}
+.Nome-Colab{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 0 5px 0;
+
+}
+.Funcao-Colab{
+    color:#667085 ;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+footer{
+    margin-top: 100px;
+}
+.fim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.oportunidades{
+    font-size: 36px;
+    font-weight: 600;
+    color: #101828;
+    margin-bottom: 20px;
+}
+.Prime{
+    margin-bottom: 40px;
+}
+#btnCadastrar{
+    width: 116px;
+    height: 48px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 8px;
+    border: 1px;
+    background:#8E2424 ;
+    color: white;
+}
+#txtmail{
+    width: 360px;
+    height: 48px;
+    padding: 12px, 14px, 12px, 16px;
+    border-radius: 8px;
+    border: 1px;
+    outline: none;
+}
+.copy{
+    margin-top: 50px;
+    color: #98A2B3;
+}
+h3{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: left;
+    color: #101828;
+}
+a{
+    margin: 0 32px 0 0 ;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085;
+
+}
+button{
+    width: 103px;
+    height: 34px;
+    padding: 10px, 18px, 10px, 18px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+}
